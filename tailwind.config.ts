@@ -63,7 +63,7 @@ module.exports = {
 				colorErrorContainerDark: "#8C1D18",
 				colorOnErrorContainerDark: "#F9DEDC",
 				colorOutlineDark: "#938F99",
-				colorBackgroundDark: "#1a1c17",
+				colorBackgroundDark: "#111111",
 				colorOnBackgroundDark: "#e3e3dc",
 				colorSurfaceDark: "#1a1c17",
 				colorOnSurfaceDark: "#e3e3dc",
