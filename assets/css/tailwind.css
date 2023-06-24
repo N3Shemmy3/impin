@@ -16,13 +16,12 @@
 	::-webkit-scrollbar-track {
 		-webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
 		border-radius: 8px;
-		@apply bg-colorBackgroundLight;
+		@apply bg-colorPrimaryContainerLight;
 	}
 
 	::-webkit-scrollbar {
 		width: 8px;
-		height: 100px;
-		@apply bg-colorBackgroundLight;
+		@apply bg-colorPrimaryContainerLight;
 	}
 
 	::-webkit-scrollbar-thumb {
