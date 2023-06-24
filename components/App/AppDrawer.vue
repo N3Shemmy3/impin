@@ -71,17 +71,17 @@
 		},
 		{
 			icon: "ic:outline-settings",
-			name: "Dumbbell",
+			name: "Live",
 			route: "",
 		},
 		{
-			icon: "ic:outline-settings",
-			name: "Barbell",
+			icon: "ic:outline-libary",
+			name: "SubScriptions",
 			route: "",
 		},
 		{
-			icon: "ic:outline-settings",
-			name: "Stability ball",
+			icon: "ic:outline-round-history",
+			name: "History",
 			route: "",
 		},
 		{
