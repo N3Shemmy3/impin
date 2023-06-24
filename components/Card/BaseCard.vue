@@ -1,3 +1,3 @@
 <template>
-	<div class=""> </div>
+	<div v-Ripple class=""><slot /> </div>
 </template>

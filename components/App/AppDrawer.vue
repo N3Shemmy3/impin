@@ -75,12 +75,12 @@
 			route: "",
 		},
 		{
-			icon: "ic:outline-libary",
-			name: "SubScriptions",
+			icon: "ic:outline-video-library",
+			name: "Subscriptions",
 			route: "",
 		},
 		{
-			icon: "ic:outline-round-history",
+			icon: "ic:outline-history",
 			name: "History",
 			route: "",
 		},

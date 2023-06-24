@@ -2,7 +2,7 @@
 	<AppRoot>
 		<AppDrawer
 			v-if="isHomePage"
-			title="Kujimba"
+			title="Impin"
 			:isShown="isDrawerVisible"
 			@update:isShown="(state) => (isDrawerVisible = state)"
 		>
@@ -12,10 +12,7 @@
 				:title="$route.meta.title"
 				@onClickMenuItem="(name) => (isDrawerVisible = true)"
 			/>
-			<NuxtLayout>
-				<NuxtLoadingIndicator color="#376a1f" />
-				<NuxtPage />
-			</NuxtLayout>
+			<NuxtPage />
 		</AppContainer>
 	</AppRoot>
 </template>
