@@ -13,8 +13,6 @@
 </template>
 
 <script setup>
-	import IconButton from "../Icon/IconButton.vue";
-
 	const router = useRouter();
 	const route = useRoute();
 	const props = defineProps({

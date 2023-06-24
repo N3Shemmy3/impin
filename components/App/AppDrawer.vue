@@ -13,10 +13,10 @@
 			<div
 				v-show="isDrawerShown"
 				ref="drawer"
-				class="fixed h-full pe-4 w-[250px] delay-100 duration-300 transition-all ease-in-out overflow-hidden shadow-md md:shadow-none bg-colorSurfaceLight text-colorOnSurfaceLight dark:bg-colorSurfaceDark dark:text-colorOnSurfaceDark"
+				class="fixed h-full p-4 w-[250px] delay-100 duration-300 transition-all ease-in-out overflow-hidden shadow-md md:shadow-none bg-colorSurfaceLight text-colorOnSurfaceLight dark:bg-colorSurfaceDark dark:text-colorOnSurfaceDark"
 			>
-				<div ref="header" class="p-4">
-					<h6 class="text-lg font-semibold">{{ props.title }}</h6>
+				<div ref="header" class="flex p-4 content-center">
+					<h6 class="text-2xl">{{ props.title }}</h6>
 				</div>
 				<slot class="space-y-1">
 					<div class="space-y-1">
@@ -29,7 +29,7 @@
 									? 'bg-colorPrimaryContainerLight dark:bg-colorPrimaryContainerDark'
 									: 'bg-transparent'
 							"
-							class="flex group no-select noSelect cursor-pointer transition-all duration-300 w-full min-h-[48px] p-3 items-center py-2 space-x-4 rounded-e-full hover:bg-colorPrimaryContainerLight hover:dark:bg-colorPrimaryContainerDark hover:bg-opacity-30 dark:hover:bg-opacity-30"
+							class="flex group no-select noSelect cursor-pointer transition-all duration-300 w-full min-h-[48px] p-3 items-center py-2 space-x-4 rounded-md hover:bg-colorPrimaryContainerLight hover:dark:bg-colorPrimaryContainerDark hover:bg-opacity-30 dark:hover:bg-opacity-30"
 						>
 							<Icon
 								:name="item.icon"

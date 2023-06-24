@@ -1,3 +1,3 @@
 <template>
-	<div v-Ripple class=""><slot /> </div>
+	<Nuxt-Link v-Ripple class=""><slot /> </Nuxt-Link>
 </template>
