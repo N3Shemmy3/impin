@@ -29,7 +29,7 @@
 									? 'bg-colorPrimaryContainerLight dark:bg-colorPrimaryContainerDark'
 									: 'bg-transparent'
 							"
-							class="flex group no-select noSelect cursor-pointer transition-all duration-300 w-full min-h-[48px] p-3 items-center py-2 space-x-4 rounded-md hover:bg-colorPrimaryContainerLight hover:dark:bg-colorPrimaryContainerDark hover:bg-opacity-30 dark:hover:bg-opacity-30"
+							class="flex group no-select noSelect cursor-pointer transition-all duration-300 w-full min-h-[48px] p-3 items-center py-2 space-x-5 rounded-md hover:bg-colorPrimaryContainerLight hover:dark:bg-colorPrimaryContainerDark hover:bg-opacity-30 dark:hover:bg-opacity-30"
 						>
 							<Icon
 								:name="item.icon"
@@ -41,14 +41,14 @@
 								"
 								class="icon group-hover:text-colorOnPrimaryContainerLight dark:group-hover:text-colorOnPrimaryContainerDark"
 							/>
-							<h1
+							<h6
 								:class="
 									item.name == 'Home'
 										? 'font-semibold text-colorOnPrimaryContainerLight dark:text-colorOnPrimaryContainerDark'
 										: ''
 								"
 								class="icon group-hover:font-semibold transition duration-300 group-hover:text-colorOnPrimaryContainerLight dark:group-hover:text-colorOnPrimaryContainerDark"
-								>{{ item.name }}</h1
+								>{{ item.name }}</h6
 							>
 						</div>
 					</div>

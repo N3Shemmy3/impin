@@ -7,7 +7,7 @@
 			@update:isShown="(state) => (isDrawerVisible = state)"
 		>
 		</AppDrawer>
-		<AppContainer style="padding-top: 56px" class="">
+		<AppContainer style="padding-top: 60px" class="">
 			<AppToolbar
 				:title="$route.meta.title"
 				@onClickMenuItem="(name) => (isDrawerVisible = true)"

@@ -1,13 +1,13 @@
 <template>
 	<AppLayout class="md:flex space-x-2 space-y-4 sm:space-y-0">
-		<AppContainer ref="content" class="h-fit md:w-8/12">
+		<AppContainer ref="content" class="h-fit flex-grow">
 			<div
 				ref="videoPlayer"
-				class="w-full h-fit sm:h-full sm:w-[70vw] aspect-video rounded-md bg-colorPrimaryContainerDark"
+				class="w-full h-fit sm:w-[70vw] aspect-video rounded-md bg-colorPrimaryContainerDark"
 			>
 			</div>
 		</AppContainer>
-		<div ref="more" class="md:w-4/12 flex-col sm:px-4">
+		<div ref="more" class="h-full md:w-4/12 flex-col sm:px-4">
 			<div
 				class="flex h-14 mb-4 px-4 items-center rounded-md bg-colorPrimaryContainerLight dark:bg-colorPrimaryContainerDark bg-opacity-50 dark:bg-opacity-50"
 			>

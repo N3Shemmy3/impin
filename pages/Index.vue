@@ -1,5 +1,5 @@
 <template
-	><AppLayout class="mx-auto grid gap-4 grid-responsive py-2">
+	><AppLayout class="mx-auto grid gap-4 grid-responsive">
 		<ItemCard v-for="n in 10" />
 	</AppLayout>
 </template>

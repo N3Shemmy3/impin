@@ -2,8 +2,10 @@
 	<img
 		v-if="$props.src"
 		:src="$props.src"
+		v-Ripple
 		alt="A"
-		class="h-12 w-12 text-lg rounded-full bg-transparent object-cover"
+		sele
+		class="w-[48px] p-1 text-lg cursor-pointer rounded-full bg-transparent object-cover"
 	/>
 </template>
 
