@@ -1,6 +1,12 @@
 @tailwind base;
 @tailwind components;
-
+* {
+	margin: 0; /* zero out margin */
+	padding: 0; /* zero out padding */
+}
+main {
+	padding: 20px;
+}
 @media (prefers-color-scheme: light) {
 	html,
 	body {
@@ -35,7 +41,6 @@
 	html,
 	body {
 		@apply bg-colorBackgroundDark text-colorOnBackgroundDark;
-		margin: 0;
 		position: absolute;
 		height: 100%;
 		width: 100vw;
