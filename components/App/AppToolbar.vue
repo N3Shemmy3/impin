@@ -1,6 +1,6 @@
 <template>
 	<div
-		class="fixed top-0 z-50 flex w-full shadow-sm h-14 px-2 py-2 space-x-2 items-center bg-colorBackgroundLight text-colorOnBackgroundLight dark:bg-colorSurfaceDark dark:text-colorOnSurfaceDark"
+		class="fixed top-0 z-50 flex w-full shadow-sm min-h-[56px] px-2 py-2 space-x-2 items-center bg-colorBackgroundLight text-colorOnBackgroundLight dark:bg-colorSurfaceDark dark:text-colorOnSurfaceDark"
 	>
 		<IconButton
 			v-if="$route.name == 'index'"
@@ -8,7 +8,12 @@
 			@click="emit('onClickMenuItem', 'navIcon')"
 		/>
 		<IconButton v-else icon="ic:round-arrow-back" @click="goBack" />
-		<h1 class="text-lg">{{ props.title }}</h1>
+		<h1 class="text-lg sm:hidden">{{ props.title }}</h1>
+		<input
+			type="text"
+			placeholder="Type to search"
+			class="h-full flex-grow-0 bg-transparent"
+		/>
 	</div>
 </template>
 
