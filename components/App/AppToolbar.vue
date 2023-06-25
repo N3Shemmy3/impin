@@ -14,6 +14,7 @@
 			placeholder="Type to search"
 			class="h-full flex-grow-0 bg-transparent"
 		/>
+		<Avatar src="https://avatars.githubusercontent.com/u/67279072?v=4" />
 	</div>
 </template>
 
